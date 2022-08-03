@@ -1,9 +1,9 @@
-package DataStructure;
+package Algorithm;
 import java.util.Iterator;
 import java.util.Scanner;
 
 //#2750 수 정렬하기 
-public class Bubble {
+public class BubbleSort {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
