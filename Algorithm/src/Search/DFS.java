@@ -30,7 +30,7 @@ public class DFS {
 			st = new StringTokenizer(br.readLine());	//양 끝점 
 			int start = Integer.parseInt(st.nextToken());
 			int end = Integer.parseInt(st.nextToken());
-			A[start].add(end);
+			A[start].add(end);	//양 방향이니까 앞 뒤로 그래프 데이터를 넣어준다.
 			A[end].add(start);			
 		}
 		
